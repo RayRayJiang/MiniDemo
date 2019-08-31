@@ -1,0 +1,5 @@
+<view class="goodslist">
+    <goods-item wx:for="{{goodsList}}" wx:key="{{item._id}}" item="{{item}}" />
+</view>
+<!-- 回到顶部组件 -->
+<back-top isBack="{{isBack}}" />

@@ -1,0 +1,1 @@
+<image src="../../assets/images/backTop.png" alt="" class="icon" hidden="{{isBack}}" bindtap="backToTop" />

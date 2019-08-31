@@ -1,0 +1,15 @@
+<!-- 物品详情 -->
+<view class="content"> 
+    <image class="goodsimg" src="{{commonUrl + info.goodsImg}}" alt="" />
+    <text class="goodsname">{{info.goodsName}}</text>
+    <view class="taste">
+        <text class="tastename">口味:{{info.goodsTaste}}</text>
+        <text class="sweetness">甜度: {{info.goodsSweet}}</text>
+    </view>
+    <text class="price">￥{{info.goodsPrice}}</text>
+    <view class="skus">
+        <text>已选规格: {{buysku}}</text>
+        <text class="iconimg"> > </text>
+    </view>
+</view>
+

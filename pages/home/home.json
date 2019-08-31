@@ -1,0 +1,10 @@
+{
+	"usingComponents": {
+		"goods-item": "/components/goodsitem/goodsitem",
+		"back-top": "/components/backToTop/backToTop"
+	},
+	"backgroundTextStyle":"dark",
+	"enablePullDownRefresh":true,
+	"onReachBottomDistance":70,
+	"navigationBarTitleText": "首页"
+}

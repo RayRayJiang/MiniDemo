@@ -1,0 +1,12 @@
+<view class="goodsitem" bindtap="toGoodsDetail">
+    <image class="goodsimg" src="{{commonUrl + item.goodsImg}}" alt="" />
+    <text class="goodsname">{{item.goodsName}}</text>
+    <text class="tag">{{item.goodsTitle}}</text>
+    <text class="title">
+        <text class="goodstag">{{item.goodsTag}}</text>
+    </text>
+    <view class="pricebox">
+        <text class="price">￥{{item.goodsPrice}}</text>
+        <text>已售{{item.goodsNum}}份</text>
+    </view>
+</view>

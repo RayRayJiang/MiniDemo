@@ -1,0 +1,7 @@
+.icon {
+  width: 80rpx;
+  height: 80rpx;
+  position: fixed;
+  right: 30rpx;
+  bottom: 150rpx;
+}

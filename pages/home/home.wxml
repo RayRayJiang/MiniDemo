@@ -1,0 +1,17 @@
+<swiper 
+	autoplay 
+	circular
+	interval="2000" 
+	indicator-dots="true"
+	indicator-color="orange" 
+	class="carousel">
+	<swiper-item wx:for="{{swiperList}}" wx:key="{{item._id}}" class="slide-item" bindtap="toGoodsDetail" data-id="{{item._id}}">
+		<image src="{{commonUrl + item.goodsImg}}" class="slide-image" mode="aspectFill" />
+	</swiper-item>
+</swiper>
+
+<view class="goodslist">
+	<goods-item wx:for="{{goodsList}}" wx:key="{{item._id}}" item="{{item}}" />
+</view>
+
+<back-top isBack="{{isBack}}" />

@@ -1,0 +1,41 @@
+.videolist .videobox {
+  height: 650rpx;
+  width: 100%;
+  position: relative;
+  margin-top: 50rpx;
+}
+.videolist .videobox .myvideo {
+  width: 100%;
+  padding-top: 60rpx;
+}
+.videolist .videobox .img-box {
+  padding: 60rpx 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  z-index: 999;
+  width: 100%;
+}
+.videolist .videobox .img-box .video-title {
+  padding: 0 0 30rpx 40rpx;
+}
+.videolist .videobox .img-box .cover-box {
+  width: 100%;
+}
+.videolist .videobox .img-box .cover-box .video-img {
+  height: 450rpx;
+  width: 100%;
+}
+.videolist .videobox .img-box .play-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 100rpx;
+  height: 100rpx;
+}

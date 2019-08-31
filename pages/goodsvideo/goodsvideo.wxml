@@ -1,0 +1,15 @@
+<view class="videolist">
+    <view class="videobox" wx:for="{{videoList}}" wx:key="{{item}}">
+        <!-- 视频封面层 -->
+        <view class="img-box" data-id="{{index}}" style="display:{{playIndex == index ? 'none' : 'block'}}" bindtap="videoPlay">
+            <view class="video-title">{{item.title}}</view>
+            <view class="cover-box">
+                <image class="video-img" src="{{item.videoImg}}" />
+            </view>
+            <image class="play-img" src="/assets/images/bofang.png" />
+        </view>
+
+        <!-- 视频层 -->
+        <video class="myvideo" title="{{item.title}}" autoplay="true" enable-play-gesture="true" controls src="{{item.videoUrl}}" id="index{{index}}" wx:if="{{playIndex == index}}" />
+    </view>
+</view>
